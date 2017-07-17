@@ -10,6 +10,11 @@ import javax.jws.soap.*;
 import javax.jws.soap.SOAPBinding.*;
 import javax.jws.*;
 
+/**
+ * 
+ * @author oussamakaoui
+ *
+ */
 @SuppressWarnings("restriction")
 @WebService(endpointInterface="com.developeinjava.jaxws.BusService")
 public class BusServiceImpl implements BusService{
